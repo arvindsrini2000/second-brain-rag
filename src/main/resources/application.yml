@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: second-brain-rag
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/secondbrain
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
